@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    background-color: blue;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.home {
+    float: left;
+    margin-right: 50px;
+}
+
+.away {
+    float: right;
+}
+
+h3 {
+    color: #fff;
+    font-size: 30px;
+}
+
+.score {
+    font-size: 40px;
+    background-color: #000;
+    height: 120px;
+    color: red;
+    margin-top: -18px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.score-btns {
+    width: 155px;
+    padding: 12px;
+}
+
+
+button {
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    color: #fff;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.new-game {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
